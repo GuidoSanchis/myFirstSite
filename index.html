@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GdBarbecue</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+</head>
+
+<body>
+  
+  <header>
+    <a href="#"><img src="imagens/Espetinho Churrasco - Logotipo.png" class="logo"></a>
+    <ul>
+      <li><a href="#sobre">Quem somos</a></li>
+      <li><a href="#encomendas">Encomendas</a></li>
+      <li><a href="#cortes">Cortes</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </header>
+  
+  <section class="inicio background">
+    <div class="intro">
+      <p>Venha para sua melhor experiência!</p>
+      <img src="imagens/Espetinho Churrasco - Logotipo.png">
+    </div>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <img src="imagens/ImgTextoEsquerda-removebg-preview.png" class="ImgTextoEsquerda">
+    <div class="conteudoSobre">
+      <img src="imagens/IconBbq.png" class="icon">
+      <h1>Quem Somos</h1>
+      <div class="texto"><p>Nós comemos, bebemos e cozinhamos. Viajamos para descobrirmos novos sabores e conversarmos sobre eles. Acreditamos que comer é uma das grandes maravilhas da vida.</p>
+        <p>Há quarenta anos comercializamos produtos de qualidade, como cortes uruguaios e argentinos, filés de peixe, haddock escocês, vieiras importadas e tentáculos.</p>
+      </div>
+      <span></span>
+    </div>  
+    <img src="imagens/ImgTextoEsquerda-removebg-preview.png" class="ImgTextoDireita">
+  </section>
+
+  <section class="encomendas background" id="encomendas">
+    <p>As melhores carnes e os melhores cortes. <br>  Seu melhor churrasco começa aqui!</p>
+    <button class="btnEncomendas">Encomende Já!</button>
+  </section>
+
+  <section class="cortes" id="cortes">
+    <div class="topoCortes">
+      <img src="imagens/IconCortes.png" class="icon">
+      <h1>Cortes</h1>
+    </div>  
+    <h2>Especialidades</h2>
+    <div class="especialidades">
+      <div class="especialidades1">
+        <img src="imagens/Tomahawk.jpg" width="250px" height="200px">
+        <p>Tomahawk</p>
+      </div>  
+      <div class="especialidades1">
+        <img src="imagens/Tbone.jpg" width="250px" height="200px">
+        <p>Tbone</p>
+      </div>
+      <div class="especialidades1">
+        <img src="imagens/TiraAngus.jpeg" width="250px" height="200px">
+        <p>Tira Angus</p>
+      </div>
+      <div class="especialidades1">
+        <img src="imagens/BabyBeef.jpg" width="250px" height="200px">
+        <p>Baby Beef</p>
+      </div>
+    </div>  
+    <h2>Exóticas</h2>
+    <div class="exoticas">
+      <div class="especialidades1">
+        <img src="imagens/Avestruz.jpg" width="250px" height="200px" >
+        <p>Avestruz</p>
+      </div>
+      <div class="especialidades1">
+        <img src="imagens/Cabrito.jpg" width="250px" height="200px" >
+        <p>Cabrito</p>
+      </div>
+      <div class="especialidades1">
+        <img src="imagens/Coelho.jpg" width="250px" height="200px" >
+        <p>Coelho</p>
+      </div>
+      <div class="especialidades1">
+        <img src="imagens/AnchoAngus.webp" width="250px" height="200px" >
+        <p>Ancho Angus</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq background" id="faq">
+    <div class="topoCortes">
+      <img src="imagens/IconDuvidas2-removebg-preview.png" class="icon"><br>
+      <h1>Duvidas Frequentes</h1>
+    </div> 
+    <div class="conteudofaq">
+      <div class="perguntas">
+        <h2>Quando chegam novos produtos?</h2>
+        <br>
+        <p>Todas as quinta-feiras chegam novos produtos.</p>
+        <br>
+        <br>
+        <h2>Vocês entregam em casa?</h2>
+        <br>
+        <p>Nas compras acima de R$50,00 sua encomenda é entregue sem<br> custos adicionais no conforto do seu lar,
+        estando ele dentro<br> da região metropolitana do Rio de Janeiro.</p>
+        <br>
+        <br>
+        <h2>Vocês entregam aos finais de semana?</h2>
+        <br>
+        <p>Não, nossas entregas ocorrerem de segunda a sexta.</p>
+      </div>  
+    </div>  
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="topoContato">
+      <img src="imagens/iconForm.png" class="icon"><br><br>
+      <h1>Contato</h1>
+    </div>
+    <div class="conteudoForm">
+      <div class="forms">
+        <form method="post">
+          <label for="nome" class="texto">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+          <label for="email" class="texto">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br><br>
+          <label for="telefone" class="texto">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone"><br><br>
+          
+          <div class="radio">
+            <p><span id="sexo">Sexo:</span></p>
+            <div class="radioOptions">
+              <input type="radio" class="opcaoSexo" id="masculino" name="sexo">
+                <label for="masculino">Masculino</label>
+              <input type="radio" class="opcaoSexo" id="feminino" name="sexo">
+                <label for="feminino">Feminino</label>
+              <input type="radio" class="opcaoSexo" id="naoInformar" name="sexo">
+                <label for="naoInformar">Não Informar</label>
+            </div>
+          </div>
+          <br>
+  
+          <div class="select">
+            <span id="select">Carne Preferida:</span>
+            <select id="preferida" name="preferida">
+              <option selected disabled>Escolha uma opção</option>
+              <option>Bovina</option>
+              <option>Aves</option>
+              <option>Suína</option>
+              <option>Exóticas</option>
+            </select>
+          </div>
+          <br>
+  
+          <div class="check">
+            <p><span id="informacoes">Desejo receber informações por:</span></p>
+            <div class="checkOptions">
+              <div class="checkboxInfo">
+                <input type="checkbox" class="checkboxOp" id="todos" name="informacao" checked>
+                <label for="todos">Todos os meios</label>
+              </div>
+              <div class="checkboxInfo">
+                <input type="checkbox" class="checkboxOp" id="sms" name="informacao" checked>
+                <label for="sms">SMS</label>
+              </div>
+              <div class="checkboxInfo">
+                <input type="checkbox" class="checkboxOp" id="emailCheck" name="informacao" checked>
+                <label for="emailCheck">E-mail</label>
+              </div>
+              <div class="checkboxInfo">
+                <input type="checkbox" class="checkboxOp" id="ligacao" name="informacao" checked>
+                  <label for="ligacao">Ligação</label> 
+              </div>
+            </div>
+          </div>
+        
+          <br>
+          <input type="button" class="btnForm" value="Enviar">
+        </form> 
+      </div>  
+      <div class="imageForm">
+        <img src="imagens/CartoonChef-removebg-preview.png">
+      </div>
+    </div>
+    <div class="localizacao">
+      <div class="map"><iframe width="500" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Rua%20Volunt%C3%A1rios%20da%20P%C3%A1tria,%20340%20loja%20F%20-%20Botafogo%20-%20Rio%20de%20Janeiro%20-%20RJ+(Del%C3%ADcias%20da%20Carne%20Ex%C3%B3tica)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe><br><span>Rua Voluntários da Pátria, 340 loja F Botafogo - Rio de Janeiro - RJ</span></div>
+      <div class="faleConosco">
+        <span class="iconFaleConosco">
+          <img src="imagens/whatsapp.png" class="icon">
+          <p>(21) 9721-30412</p>
+        </span>
+        <span class="iconFaleConosco">
+          <img src="imagens/phone-call.png" class="icon">
+          <p> (21) 2527-7125 &nbsp;</p>
+        </span>
+        <a href="https://www.facebook.com/people/Del%C3%ADcias-da-CarneEx%C3%B3ticas/100051408973552/" class="iconFaleConosco facebook" target="_blank">
+            <img src="imagens/facebook.png" class="icon">
+            <p>Delícias-da-CarneExóticas</p>
+        </a>
+        
+      </div>
+    </div>
+  </section>
+  <section class="footer">Política de Privacidade. &copy; 2023 Guido Sanchis</section>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
